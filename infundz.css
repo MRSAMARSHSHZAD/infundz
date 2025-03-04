@@ -248,9 +248,16 @@ ul li {
     /* background-image: linear-gradient( to right, #2d23a8, #6d23a6, #9629a3, #b736a0, #d2489d); */
     background-image: linear-gradient(90deg, rgba(45, 35, 168, .2), rgba(109, 35, 158, .2), rgba(150, 41, 163, .2), rgba(183, 54, 160, .2), rgba(210, 72, 157, .2));
     color: white;
+    background: ;
     border: none;
     cursor: pointer;
     font-size: 14px;
+}
+
+.why-btn span {
+    background: linear-gradient(to right, #1e3a8a, #ec4899);
+    background-clip: text;
+    color: transparent;
 }
 
 .whyInfundz p {
@@ -1624,7 +1631,7 @@ article {
 /* background-color: #fff; */
 
 /* } */
-*/ */ */ .selction {
+.selction {
     height: 100%;
     width: 100%;
 }
@@ -1874,16 +1881,14 @@ address {
 .see button {
     font-size: .875rem;
     line-height: 1.25rem;
-    padding: 2px;
+    padding: 10px;
     border-radius: 20px;
-    background-image: linear-gradient(141deg, #99959b 8.43%, #75726c 77.53%);
     box-sizing: border-box;
+    background-image: linear-gradient(90deg, rgba(45, 35, 168, .2), rgba(109, 35, 158, .2), rgba(150, 41, 163, .2), rgba(183, 54, 160, .2), rgba(210, 72, 157, .2));
     margin-top: 20px;
     border: none;
     margin-bottom: 10px;
-    background-color: linear-gradient(141deg, #e2d1eb 8.43%, #fffbf3 77.53%);
     margin-left: 40%;
-    /* background-image: linear-gradient(to right, var(--tw-gradient-stops)); */
 }
 .see h1 {
     font-weight: 400;
@@ -2128,9 +2133,17 @@ address {
     margin-bottom: 1.25rem;
     padding: .85rem;
     border: none;
+    color: white;
+    /* background-color: linear-gradient(to right #1e3a8a, #ec4899, ); */
+    /* background-clip: text; */
+    /* color: transparent; */
+    /* background: linear-gradient(to right, #1e3a8a, #ec4899, ); */
+    /* background-clip: text; */
+    /* color: transparent; */
+    /* border: 1px solid green; */
     border-radius: 9999px;
     box-sizing: border-box;
-    text-transform: none;
+    /* text-transform: none; */
     background-image: linear-gradient(90deg, rgba(45, 35, 168, .2), rgba(109, 35, 158, .2), rgba(150, 41, 163, .2), rgba(183, 54, 160, .2), rgba(210, 72, 157, .2));
 }
 .now h2 {
